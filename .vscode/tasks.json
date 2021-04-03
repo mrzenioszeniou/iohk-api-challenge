@@ -1,0 +1,16 @@
+{
+  "tasks": [
+    {
+      "type": "cargo",
+      "command": "run",
+      "args": [
+        "--",
+        "-t Oy3hfPoH45ze7Q",
+        "-u http://ec2-3-65-182-233.eu-central-1.compute.amazonaws.com:8080"],
+      "problemMatcher": [
+        "$rustc"
+      ],
+      "label": "cargo run"
+    }
+  ]
+}
